@@ -1,0 +1,20 @@
+# Local data files (including source workbook and generated outputs)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secrets
+.env
+scripts/gcp-key.json
+*.json.key
+
+# Local tooling
+.pytest_cache/
+.DS_Store
+Thumbs.db
+
